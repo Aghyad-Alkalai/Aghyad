@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+.head {
+    height: 150px;
+    width: 100%;
+    background-color: pink;
+}
+
+.logo {
+    height: 100px;
+    width: 250px;
+    /* background-color: blue; */
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.mainButtons {
+    height: 130px;
+    width: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+}
+.button, .button1, .button2, .button3, .button4 {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    /* background-color: rgb(206, 63, 187); */
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.mainPicture {
+    /* background-color: gray; */
+    height: 100%;
+    width: 100%;
+}
+
+H1 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.bestProduct {
+    display: flex ;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.bestProduct1, .bestProduct2, .bestProduct3 {
+    height: 100%;
+    width: 400px;
+    cursor: pointer;
+}
+
+.textContentContainer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+}
+
+.textContentBest1 {
+    height: 100%;
+    width: 400px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.textContentBest2 {
+    height: 100%;
+    width: 400px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.textContentBest3 {
+    height: 100%;
+    width: 400px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+
+
+.contentPictures {
+    margin-top: 10%;
+    height: 100px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentPicture1, .contentPicture2, .contentPicture3, .contentPicture4 {
+    height: 100px;
+    width: 250px;
+    /* background-color: brown; */
+    text-align: center;
+}
+
+.contentText {
+    margin-top: 2%;
+    height: 200px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentText1, .contentText2, .contentText3, .contentText4 {
+    height: 200px;
+    width: 250px;
+    /* background-color: rgb(196, 158, 158); */
+    text-align: center;
+}
+
+.clientReviewContainer {
+    margin-top: 50px;
+    height: 350px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clientReview1, .clientReview2, .clientReview3 {
+    margin-top: 30px;
+    height: 100%;
+    width: 300px;
+    /* background-color: blue; */
+    font-weight: 400;
+}
